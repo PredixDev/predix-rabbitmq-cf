@@ -6,6 +6,28 @@ The example contains HomeController.java to run the smoke tests and the consumer
 
 ######Please see details in the Developer notes.
 
+##Project structure
+  ```
+├── LICENSE.md
+├── README.md
+├── manifest.yml
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       └── com
+    │           └── ge
+    │               └── predix
+    │                   └── labs
+    │                       └── rabbitmq
+    │                           ├── Application.java
+    │                           ├── config
+    │                           │   └── RabbitConfig.java
+    │                           └── web
+    │                               └── HomeController.java
+    └── test
+  ```
+
 Code (RabbitConfig.java):
  -  extends AbstractCloudConfig class to get the ConnectionFactory object associated with the only RabbitMQ service bound to our application
  - and the Rabbit Template that we use in the example
