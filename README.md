@@ -46,7 +46,7 @@ public class RabbitConfig extends AbstractCloudConfig {
    
 ## Installation
  - clone repository  
-    `>git clone git@github.build.ge.com:PredixLabs/predix-rabbitmq-cf.git`
+    `>git clone https://github.com/PredixDev/predix-rabbitmq-cf.git`
  - check that you have on your market space a RabbitMQ service 
  
     `>cf m`
@@ -76,7 +76,8 @@ public class RabbitConfig extends AbstractCloudConfig {
     >cf push 
     
   ```
- - use browser to test app: http://rqbbitmq-sv.run.aws-usw02-pr.ice.predix.io/info
+ - use browser to test app: [http://rqbbitmq-sv.run.aws-usw02-pr.ice.predix.io/info] (http://rqbbitmq-sv.run.aws-usw02-pr.ice.predix.io/info)
+ - 
 ``` 
 Services available in application 
 service :rabbitmq_sv
@@ -96,7 +97,7 @@ Fri Nov 06 18:20:33 UTC 2015:Test Message:8ae636c7-3f66-4cfb-94d8-4fb7d67901e0
 Fri Nov 06 18:20:33 UTC 2015:Test Message:8ae636c7-3f66-4cfb-94d8-4fb7d67901e0 - Fri Nov 06 18:20:34 UTC 2015
 ``` 
 
-- smoke test: http://rqbbitmq-sv.run.aws-usw02-pr.ice.predix.io/test
+- smoke test: [http://rqbbitmq-sv.run.aws-usw02-pr.ice.predix.io/test] (http://rqbbitmq-sv.run.aws-usw02-pr.ice.predix.io/test)
 
 ``` 
 -> Tue Nov 10 19:06:53 UTC 2015:Test Message:3808ca7d-5f73-4f72-a173-5447471a0f0c
