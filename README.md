@@ -89,7 +89,6 @@ Path :f3d47985-2ba9-45c9-b597-f829c0db5286
 URI :amqp://a9c94ee2-f9d6-4872-a17c-b4a054d945f3:k6rqn8206qn8rocaios0qt4no7@10.72.6.27:5672/f3d47985-2ba9-45c9-b597-f829c0db5286
 Virtual Host:f3d47985-2ba9-45c9-b597-f829c0db5286
 User Name :a9c94ee2-f9d6-4872-a17c-b4a054d945f3
-Password :k6rqn8206qn8rocaios0qt4no7
 Id :rabbitmq_sv
 Query :null
 Scheme :amqp
